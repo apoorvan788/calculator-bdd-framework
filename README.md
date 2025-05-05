@@ -5,7 +5,7 @@ This is a simple BDD automation framework built for testing the calculator that 
 - Maven
 
 ### Configuration
-Edit src/main/resources/configuration.properties to set:
+Edit src/test/resources/configuration.properties to set:
 - Browser type (chrome, firefox, edge)
 - Headless mode (true/false)
 - Timeouts
