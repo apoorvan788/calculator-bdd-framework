@@ -6,34 +6,6 @@ Feature: Google Calculator Arithmetic Operations
   Background:
     Given I navigate to Google calculator
 
-#  Scenario: Addition of whole numbers
-#    When I enter "23"
-#    And I click the plus button
-#    And I enter "45"
-#    And I click the equals button
-#    Then the result should be "68"
-#
-#  Scenario: Subtraction of whole numbers
-#    When I enter "75"
-#    And I click the minus button
-#    And I enter "25"
-#    And I click the equals button
-#    Then the result should be "50"
-#
-#  Scenario: Multiplication of whole numbers
-#    When I enter "12"
-#    And I click the multiply button
-#    And I enter "5"
-#    And I click the equals button
-#    Then the result should be "60"
-#
-#  Scenario: Division of whole numbers
-#    When I enter "100"
-#    And I click the divide button
-#    And I enter "4"
-#    And I click the equals button
-#    Then the result should be "25"
-
   Scenario: Division by zero
     When I enter "5"
     And I click the divide button
